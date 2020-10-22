@@ -10,10 +10,10 @@ function setup() {
   for(let i = 0; i < 9; i++){
 
 
-    if(i%3 == 0){
+    if(i <3 ){
       strokeWeight(1);
   }
-   else if (i%3==1) {
+   else if (i<6) {
      strokeWeight(3);
 
   }
