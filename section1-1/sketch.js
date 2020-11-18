@@ -3,8 +3,8 @@ function setup() {
 }
 
 function draw() {
-  background(0);
-  strokeWeight(4);
+  background(1);
+  strokeWeight(5);
   fill(178, 100, 162);
   triangle(12,120,116,120,116,10);
   fill(94, 185, 84);
@@ -13,4 +13,5 @@ function draw() {
   textSize(32);
   textFont("serif");
   text("46", 68, 100);
+
 }
