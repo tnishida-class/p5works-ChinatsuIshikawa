@@ -1,5 +1,4 @@
 // 最終課題を制作しよう
-
 let x, y, vx, vy;
 
 function setup(){
@@ -8,12 +7,13 @@ function setup(){
   y = height / 2;
   vx = 8;
   vy = 8;
+
 }
 
 function draw(){
   background(0);
-  nostroke();
-  // BLANK[2] (hint: 作った star 関数を使います)
+  noStroke();
+   // BLANK[2] (hint: 作った star 関数を使います)
   star(x,y-50,10,vx*vy);
   star(x+35,y-25,10,vx*vy);
   star(x-35,y-25,10,vx*vy);
@@ -34,8 +34,6 @@ function draw(){
   star(x,y+5,10,vx*vy);
   star(x+14,y+9,10,vx*vy);
   star(x-14,y+9,10,vx*vy);
-
-
 
   x -= 2;
   y += 2;
